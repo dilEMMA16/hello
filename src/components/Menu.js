@@ -1,5 +1,5 @@
 import React, { useEffect, useRef} from 'react';
-import '../App.css';
+import './Menu.css';
 import useToggle from 'react-use-toggle';
 
 function Menu() {
@@ -32,6 +32,7 @@ function Menu() {
 
     return (
       <>
+      <div id="smallTopColorBar"></div>
       <div id="topColorBar"></div>
       <div id="sideColorBar"></div>
       <>

@@ -1,0 +1,7 @@
+#sectionDiv {
+  min-height: 100vh;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 5em;
+  background-color: #fbfbfb
+}

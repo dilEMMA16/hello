@@ -2,13 +2,14 @@ import React from 'react';
 import logo from './logo_logo.svg';
 import './App.css';
 import Menu from './components/Menu';
+import About from './components/About';
 
 function App() {
 
   return (
     <div className="App">
+      <Menu/>
       <header className="App-header">
-        <Menu/>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
           emma schreifels
@@ -17,6 +18,7 @@ function App() {
           --&#62; i curiously create &#60;--
         </p>
       </header>
+      <About/>
     </div>
   );
 }

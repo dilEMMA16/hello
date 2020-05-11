@@ -12,6 +12,10 @@ function Menu() {
   const workButtonRef = useRef(null);
   const contactButtonRef = useRef(null);
 
+  const goTo = ((section) => {
+    window.location.href = section;
+  });
+
   useEffect(() => {
     console.log(contactButtonRef);
     if(showMenu){
@@ -38,11 +42,11 @@ function Menu() {
       <>
       <button id="menuButton" onClick={() => toggleMenu()}>{showMenu? (<span id="menuCloseTitle">x</span>):(<span id="menuTitle">menu</span>)}<div id="triangle-bottomright"></div></button>
       </>
-      <button className="navButton navLink" ref={aboutButtonRef} id="aboutButton">about</button>
-      <button class="navButton navLink" ref={workButtonRef} id="workButton">work</button>
-      <button class="navButton navLink" ref={designButtonRef} id="designButton">design</button>
-      <button class="navButton navLink" ref={codeButtonRef} id="codeButton">code</button>
-      <button class="navButton navLink" ref={contactButtonRef} id="contactButton">contact</button>
+      <button onClick={() => goTo('#aboutDiv')} className="navButton navLink" ref={aboutButtonRef} id="aboutButton">about</button>
+      <button className="navButton navLink" ref={workButtonRef} id="workButton">work</button>
+      <button className="navButton navLink" ref={designButtonRef} id="designButton">design</button>
+      <button className="navButton navLink" ref={codeButtonRef} id="codeButton">code</button>
+      <button className="navButton navLink" ref={contactButtonRef} id="contactButton">contact</button>
       </>
     )
 

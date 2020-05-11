@@ -1,8 +1,46 @@
-#sectionDiv {
+#aboutDiv {
   min-height: 100vh;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
   padding: 5em 13em;
-  background-color: #fbfbfb;
+  background-color: #E19C28; /*fbfbfb*/
   text-align: left;
+}
+
+.aboutParagraph {
+  color: #1A4790 !important;
+}
+
+#ornamentalDiv {
+  background-color: #1A4790;
+  height: 300px;
+  width: 100%;
+  clip-path: polygon(14% 18%, 33% 6%, 55% 25%, 81% 13%, 100% 25%, 100% 100%, 0 100%, 0 6%);
+}
+#ornamentalDiv2 {
+  background-color: #DF5826;
+  height: 200px;
+  width: 100%;
+  position:relative;
+  top:-150px;
+  clip-path: polygon(14% 18%, 33% 6%, 55% 25%, 81% 13%, 100% 25%, 100% 100%, 0 100%, 0 6%);
+}
+#ornamentalDiv3 {
+  background-color: #418a34;
+  height: 120px;
+  width: 100%;
+  position:relative;
+  top:-250px;
+  clip-path: polygon(14% 18%, 33% 6%, 55% 25%, 81% 13%, 100% 25%, 100% 100%, 0 100%, 0 6%);
+}
+
+#nounParagaph {
+  font-style: italic;
+  font-weight:bolder;
+  padding-bottom: 15px;
+}
+
+#definitionParagraph {
+  font-size: 1.25em;
+  padding-bottom: 35px;
 }

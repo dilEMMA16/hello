@@ -1,14 +1,41 @@
 import styled from '../../node_modules/styled-components';
 import {YELLOW, RED, GREEN, LIGHT_GRAY, ROYAL_BLUE} from './ColorConstants';
+import { SM_SCREENS, MD_SCREENS, LG_SCREENS } from './BreakpointConstants';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 export const AboutDiv = styled.div`
-  min-height: 100vh;
+  height: calc(100vh + 100px);
+  max-width: 100%;
   border-top: 1px solid ${LIGHT_GRAY};
   border-bottom: 1px solid ${LIGHT_GRAY};
-  padding: 5em 13em;
+  // padding: 5em 13em;
+  padding: 0 35px;
   background-color: ${YELLOW};
   text-align: left;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  @media (min-width: ${SM_SCREENS}){
+    padding: 0 4em;
+   }
+  @media (min-width: ${MD_SCREENS}){
+   padding: 0 8em;
+  }
+  @media (min-width: ${LG_SCREENS}){
+    padding: 0 11em;
+   }
+`;
+
+export const ProfileIcon = styled(FontAwesomeIcon)`
+  color:${ROYAL_BLUE};
+  position:relative;
+  left:-65px;
+  top:-70px;
+  font-size:3em;
+  display: none;
+  @media (min-width: ${MD_SCREENS}){
+   display: inline-block;
+  }
 `;
 
 export const AboutParagraph = styled.div`
@@ -17,13 +44,17 @@ export const AboutParagraph = styled.div`
 
 export const NounParagraph = styled(AboutParagraph)`
 font-style: italic;
-font-weight:bold;
+font-weight:900;
 padding-bottom: 15px;
 `;
 
 export const DefinitionParagraph = styled(AboutParagraph)`
-font-size: 1.25em;
+font-size: 1em;
+font-weight: 600;
 padding-bottom: 35px;
+@media (min-width: ${SM_SCREENS}){
+
+}
 `;
 
 export const OrnamentalDivBlue = styled.div`

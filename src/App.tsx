@@ -3,23 +3,26 @@ import logo from './logo_logo.svg';
 import './App.css';
 import Menu from './components/Menu';
 import About from './components/About';
+import { AppDiv, AppHeader, AppLogo, AppHeading, ParagraphRed } from './AppStyles';
+import Work from './components/Work';
 
 function App() {
 
   return (
-    <div className="App">
+    <AppDiv>
       <Menu/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
+      <AppHeader>
+        <AppLogo src={logo} alt="logo" />
+        <AppHeading>
           emma schreifels
-        </h1>
-        <p>
+        </AppHeading>
+        <ParagraphRed>
           --&#62; i curiously create &#60;--
-        </p>
-      </header>
+        </ParagraphRed>
+      </AppHeader>
       <About/>
-    </div>
+      <Work/>
+    </AppDiv>
   );
 }
 

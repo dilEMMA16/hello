@@ -137,6 +137,7 @@ export const TopColorBar = styled.div`
     position:absolute;
     left: 13em;
     top:0;
+    overflow-x: hidden;
 `;
 
 export const SmallTopColorBar = styled(TopColorBar)`

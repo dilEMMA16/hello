@@ -1,18 +1,14 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import useToggle from 'react-use-toggle';
 import { SmallTopColorBar, TopColorBar, SideColorBar, MenuToggleButton, MenuCloseTitle, MenuTitle, OrnamentalTriangle, AboutButtonIn, WorkButtonIn, DesignButtonIn, CodeButtonIn, ContactButtonIn, AboutButtonOut, WorkButtonOut, DesignButtonOut, CodeButtonOut, ContactButtonOut } from './MenuStyles';
 
 function Menu() {
 
   const [showMenu, toggleMenu] = useToggle(false);
-  const aboutButtonRef = useRef(null);
-  const designButtonRef = useRef(null);
-  const codeButtonRef = useRef(null);
-  const workButtonRef = useRef(null);
-  const contactButtonRef = useRef(null);
 
   const goTo = ((section) => {
     window.location.href = section;
+    toggleMenu();
   });
 
   // const goTo = ((ref) => {

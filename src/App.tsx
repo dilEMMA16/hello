@@ -5,6 +5,9 @@ import Menu from './components/Menu';
 import About from './components/About';
 import { AppDiv, AppHeader, AppLogo, AppHeading, ParagraphRed } from './AppStyles';
 import Work from './components/Work';
+import Code from './components/Code';
+import Design from './components/Design';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
       </AppHeader>
       <About/>
       <Work/>
+      <Code/>
+      <Design/>
+      <Contact/>
     </AppDiv>
   );
 }

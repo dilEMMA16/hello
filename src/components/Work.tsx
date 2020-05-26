@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 function Work() {
 
     return (
-      <WorkDiv>
+      <WorkDiv id="work">
           <Grid container spacing={3}>
             <Grid item xs={12} md={6}>
                 <RoleDiv>

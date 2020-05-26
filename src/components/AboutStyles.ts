@@ -1,6 +1,6 @@
 import styled from '../../node_modules/styled-components';
 import {YELLOW, RED, GREEN, LIGHT_GRAY, ROYAL_BLUE} from './ColorConstants';
-import { SM_SCREENS, MD_SCREENS, LG_SCREENS } from './BreakpointConstants';
+import { SM_SCREENS, MD_SCREENS, LG_SCREENS, XL_SCREENS } from './BreakpointConstants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -9,7 +9,6 @@ export const AboutDiv = styled.div`
   max-width: 100%;
   border-top: 1px solid ${LIGHT_GRAY};
   border-bottom: 1px solid ${LIGHT_GRAY};
-  // padding: 5em 13em;
   padding: 0 35px;
   background-color: ${YELLOW};
   text-align: left;
@@ -22,7 +21,10 @@ export const AboutDiv = styled.div`
    padding: 0 8em;
   }
   @media (min-width: ${LG_SCREENS}){
-    padding: 0 11em;
+    padding: 0 17em;
+   }
+   @media (min-width: ${XL_SCREENS}){
+    padding: 0 17em;
    }
 `;
 

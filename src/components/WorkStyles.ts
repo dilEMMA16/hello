@@ -1,11 +1,10 @@
 import styled from '../../node_modules/styled-components';
-import {YELLOW, RED, GREEN, LIGHT_GRAY, ROYAL_BLUE} from './ColorConstants';
-import { SM_SCREENS, MD_SCREENS, LG_SCREENS } from './BreakpointConstants';
+import {GREEN, LIGHT_GRAY} from './ColorConstants';
+import { SM_SCREENS, MD_SCREENS, LG_SCREENS, XL_SCREENS } from './BreakpointConstants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 export const WorkDiv = styled.div`
-  min-height: 100vh;
   max-width: 100%;
   border-top: 1px solid ${LIGHT_GRAY};
   border-bottom: 1px solid ${LIGHT_GRAY};
@@ -21,7 +20,10 @@ export const WorkDiv = styled.div`
    padding: 65px 8em;
   }
   @media (min-width: ${LG_SCREENS}){
-    padding: 65px 11em;
+    padding: 65px 17em;
+   }
+   @media (min-width: ${XL_SCREENS}){
+    padding: 65px 17em;
    }
 `;
 

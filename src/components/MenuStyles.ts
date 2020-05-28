@@ -158,7 +158,7 @@ export const SmallSideColorBar = styled(SmallTopColorBar)`
   width: 20px;
   height: 200px;
   top: 2em;
-  left: 0px;
+  left: 0;
   background-color: ${GREEN};
 `;
 
@@ -166,7 +166,7 @@ export const SideColorBar = styled(SmallTopColorBar)`
   width: 20px;
   height: 200px;
   top: 7.7em;
-  left: 0px;
+  left: 0;
 `;
 
 export const MenuDiv = styled.div`

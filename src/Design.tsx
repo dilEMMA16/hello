@@ -13,7 +13,7 @@ function Design() {
     <DesignDiv id="design">
       <DesignGallery>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="/imgs/6feet.JPG" alt="6 feet" />
+          <img src="hello/src/imgs/6feet.JPG" alt="6 feet" />
           <ImageOverlay>
             <ImageTitle>6 Feet</ImageTitle>
             <ImageInfo>collage</ImageInfo>

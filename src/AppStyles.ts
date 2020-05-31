@@ -17,7 +17,7 @@ export const AppLogo = styled.img`
   pointer-events: none;
 `;
 
-export const AppHeader = styled.h1`
+export const AppHeader = styled.div`
   background-color: white;
   min-height: 100vh;
   display: flex;

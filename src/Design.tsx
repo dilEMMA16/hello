@@ -7,90 +7,115 @@ import {
   ImageTitle,
   ImageOverlay,
 } from "./DesignStyles";
+import * as Sixfeet from './imgs/sixFeet.JPG';
+import * as Eden from './imgs/eden.PNG';
+import * as CleanUp from './imgs/cleanup.jpg';
+import * as Coffee from './imgs/coffee.png';
+import * as Farm2Table from './imgs/farm2table.JPG';
+import * as LilThings from './imgs/lilthings.jpg';
+import * as Mag from './imgs/mag.jpg';
+import * as Pine from './imgs/pine.JPG';
+import * as Pie from './imgs/pie.JPG';
+import * as QuaranTime from './imgs/quartime.jpg';
+import * as DeathWizard from './imgs/ticktick.jpg';
+import * as Whine from './imgs/wine.JPG';
+import * as BG1 from './imgs/bg1.jpg';
+import * as BG2 from './imgs/bg2.jpg';
+import * as FilmFest from './imgs/filmfest.PNG';
+import * as GradCap from './imgs/gradcap.png';
+import * as LEDs from './imgs/leds.jpg';
+import * as LinkedInBanner from './imgs/linkedinbanner.png';
+import * as Mieles from './imgs/mieles.png';
+import * as TeachCode from './imgs/teachcode.png';
+import * as Sponsorship from './imgs/sponsorshipucg.png';
+import * as Beach1 from './imgs/drift1.jpg';
+import * as Beach2 from './imgs/beach.jpg';
+import * as Circuits from './imgs/getstarted.png';
+
 
 function Design() {
   return (
     <DesignDiv id="design">
       <DesignGallery>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/6feet.JPG" alt="6 feet" />
+          <img src={Sixfeet} alt="6 feet" />
           <ImageOverlay>
             <ImageTitle>6 Feet</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/eden.PNG" alt="Perilous Eden" />
+          <img src={Eden} alt="Perilous Eden" />
           <ImageOverlay>
             <ImageTitle>Perilous Eden</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/cleanup.jpg" alt="No Mess" />
+          <img src={CleanUp} alt="No Mess" />
           <ImageOverlay>
             <ImageTitle>No Mess</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/coffee.png" alt="Legal Drug" />
+          <img src={Coffee} alt="Legal Drug" />
           <ImageOverlay>
             <ImageTitle>Legal Drug</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/farm2table.JPG" alt="Farm 2 Table" />
+          <img src={Farm2Table} alt="Farm 2 Table" />
           <ImageOverlay>
             <ImageTitle>Farm 2 Table</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/lilthings.jpg" alt="Remember the Little Things" />
+          <img src={LilThings} alt="Remember the Little Things" />
           <ImageOverlay>
             <ImageTitle>Remember the Little Things</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/mag.jpg" alt="Art full" />
+          <img src={Mag} alt="Art full" />
           <ImageOverlay>
             <ImageTitle>Art Full</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/pine.JPG" alt="Pine" />
+          <img src={Pine} alt="Pine" />
           <ImageOverlay>
             <ImageTitle>Pine</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/pie.JPG" alt="Pie" />
+          <img src={Pie} alt="Pie" />
           <ImageOverlay>
             <ImageTitle>Pie</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/quartime.jpg" alt="Quaran-time" />
+          <img src={QuaranTime} alt="Quaran-time" />
           <ImageOverlay>
             <ImageTitle>Quaran-time</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/ticktick.jpg" alt="Death Wizard" />
+          <img src={DeathWizard} alt="Death Wizard" />
           <ImageOverlay>
             <ImageTitle>Death Wizard</ImageTitle>
             <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/wine.JPG" alt="Whine" />
+          <img src={Whine} alt="Whine" />
           <ImageOverlay>
             <ImageTitle>Whine</ImageTitle>
             <ImageInfo>collage</ImageInfo>
@@ -98,77 +123,77 @@ function Design() {
         </ImageDiv>
 
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/bg1.jpg" alt="Buck Gnarly" />
+          <img src={BG1} alt="Buck Gnarly" />
           <ImageOverlay>
             <ImageTitle>Buck Gnarly</ImageTitle>
             <ImageInfo>photography</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/bg2.jpg" alt="Buck Gnarly" />
+          <img src={BG2} alt="Buck Gnarly" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "25%" }}>Buck Gnarly</ImageTitle>
             <ImageInfo>photography</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/filmfest.PNG" alt="Film Festival" />
+          <img src={FilmFest} alt="Film Festival" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "15%" }}>Film Festival</ImageTitle>
             <ImageInfo>digital</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/getstarted.png" alt="Circuits" />
+          <img src={Circuits} alt="Circuits" />
           <ImageOverlay>
             <ImageTitle>Circuits</ImageTitle>
             <ImageInfo>digital</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/gradcap.png" alt="Graduation Cap" />
+          <img src={GradCap} alt="Graduation Cap" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "40%" }}>Graduation Cap</ImageTitle>
             <ImageInfo>digital</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/leds.jpg" alt="LEDs" />
+          <img src={LEDs} alt="LEDs" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "25%" }}>LEDs</ImageTitle>
             <ImageInfo>photography</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/linkedinbanner.png" alt="LinkedIn Banner" />
+          <img src={LinkedInBanner} alt="LinkedIn Banner" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "7%" }}>LinkedIn Banner</ImageTitle>
             <ImageInfo>digital</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/mieles.png" alt="Mieles Book Cover" />
+          <img src={Mieles} alt="Mieles Book Cover" />
           <ImageOverlay>
             <ImageTitle>Mieles Book Cover</ImageTitle>
             <ImageInfo>digital</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/teachcode.png" alt="Teach Code" />
+          <img src={TeachCode} alt="Teach Code" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "40%" }}>Teach Code</ImageTitle>
             <ImageInfo>digital</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/sponsorshipucg.png" alt="Sponsorship Packet" />
+          <img src={Sponsorship} alt="Sponsorship Packet" />
           <ImageOverlay>
             <ImageTitle>Sponsorship Packet</ImageTitle>
             <ImageInfo>digital</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/drift2.jpg" alt="Washington Beach" />
+          <img src={Beach1} alt="Washington Beach" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "25%" }}>
               Washington Beach
@@ -177,7 +202,7 @@ function Design() {
           </ImageOverlay>
         </ImageDiv>
         <ImageDiv style={{ position: "relative" }}>
-          <img src="./imgs/beach.jpg" alt="Washington Beach" />
+          <img src={Beach2} alt="Washington Beach" />
           <ImageOverlay>
             <ImageTitle style={{ marginTop: "25%" }}>
               Washington Beach

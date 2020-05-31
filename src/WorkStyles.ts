@@ -1,4 +1,4 @@
-import styled from "../../node_modules/styled-components";
+import styled from "styled-components";
 import { GREEN, LIGHT_GRAY } from "./ColorConstants";
 import {
   SM_SCREENS,

@@ -1,5 +1,5 @@
-import styled from "../../node_modules/styled-components";
-import { YELLOW, LIGHT_GRAY, GREEN, ROYAL_BLUE } from "./ColorConstants";
+import styled from "styled-components";
+import { LIGHT_GRAY, GREEN, ROYAL_BLUE } from "./ColorConstants";
 import {
   SM_SCREENS,
   MD_SCREENS,

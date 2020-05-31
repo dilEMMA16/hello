@@ -1,4 +1,4 @@
-import styled, { keyframes } from "../../node_modules/styled-components";
+import styled, { keyframes } from "styled-components";
 import { YELLOW, RED, GREEN, ROYAL_BLUE, PURPLE } from "./ColorConstants";
 
 const aboutTransitionIn = keyframes`

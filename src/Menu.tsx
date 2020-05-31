@@ -43,7 +43,6 @@ function Menu() {
       setShowMenu(true);
     }
   };
-  console.log(showMenu);
 
   return (
     <div>

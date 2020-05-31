@@ -1,4 +1,4 @@
-import styled from "../../node_modules/styled-components";
+import styled from "styled-components";
 import { YELLOW, RED, ROYAL_BLUE, GREEN } from "./ColorConstants";
 import {
   SM_SCREENS,

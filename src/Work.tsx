@@ -19,6 +19,36 @@ function Work() {
           <RoleDiv>
             <BriefCaseIcon icon={faBriefcase} />
             <TextDiv>
+              <WorkHeading3>Early Tech Talent Product Owner</WorkHeading3>
+              <EmployerParagraph>Target Corporation</EmployerParagraph>
+              <DateParagraph>/* May 2021 - Current */</DateParagraph>
+            </TextDiv>
+          </RoleDiv>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <RoleDiv>
+            <BriefCaseIcon icon={faBriefcase} />
+            <TextDiv>
+              <WorkHeading3>Senior Engineer</WorkHeading3>
+              <EmployerParagraph>Target Corporation</EmployerParagraph>
+              <DateParagraph>/* September 2021 - Current */</DateParagraph>
+            </TextDiv>
+          </RoleDiv>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <RoleDiv>
+            <BriefCaseIcon icon={faBriefcase} />
+            <TextDiv>
+              <WorkHeading3>Engineer</WorkHeading3>
+              <EmployerParagraph>Target Corporation</EmployerParagraph>
+              <DateParagraph>/* August 2020 - September 2021 */</DateParagraph>
+            </TextDiv>
+          </RoleDiv>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <RoleDiv>
+            <BriefCaseIcon icon={faBriefcase} />
+            <TextDiv>
               <WorkHeading3>Technology Leadership Program</WorkHeading3>
               <EmployerParagraph>Target Corporation</EmployerParagraph>
               <DateParagraph>/* July 2019 - August 2020 */</DateParagraph>

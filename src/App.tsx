@@ -20,7 +20,7 @@ function App() {
           emma schreifels
         </AppHeading>
         <ParagraphRed>
-          --&#62; i curiously create &#60;--
+          --&#62; curious creator &#60;--
         </ParagraphRed>
       </AppHeader>
       <About/>

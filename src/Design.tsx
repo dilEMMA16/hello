@@ -22,6 +22,14 @@ import * as Beach1 from './imgs/drift1.jpg';
 import * as Beach2 from './imgs/beach.jpg';
 import * as Circuits from './imgs/getstarted.png';
 import * as Cilantron from './imgs/cilantron.jpg';
+import * as ThreeGraces from './imgs/three-graces.jpg';
+import * as Staycation from './imgs/staycation.jpg';
+import * as SpotifyAlbumArt from './imgs/spotifyalbumart.jpg';
+import * as SoftApocalypse from './imgs/soft-apocalypse.jpg';
+import * as RugDesign from './imgs/rug.jpg';
+import * as MaryEllens from './imgs/maryellens.png';
+import * as HipHipArray from './imgs/hiphiparray.png';
+import * as BlessYourKeyboard from './imgs/blessyourkeyboard.png';
 
 function Design() {
   return (
@@ -134,6 +142,78 @@ function Design() {
               Washington Beach
             </ImageTitle>
             <ImageInfo>photography</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={BlessYourKeyboard} alt="Bless your keyboard" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Bless your keyboard e-card
+            </ImageTitle>
+            <ImageInfo>digital</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={HipHipArray} alt="Hip Hip Array" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Hip-hip array e-card
+            </ImageTitle>
+            <ImageInfo>digital</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={MaryEllens} alt="Mary Ellen's" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Mary Ellen's mini
+            </ImageTitle>
+            <ImageInfo>digital</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={RugDesign} alt="rug design" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Oriental rug design
+            </ImageTitle>
+            <ImageInfo>digital</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={SoftApocalypse} alt="soft apocalypse" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Soft Apocalypse
+            </ImageTitle>
+            <ImageInfo>collage</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={SpotifyAlbumArt} alt="Spotify album art" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Spotify album art
+            </ImageTitle>
+            <ImageInfo>digital</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={Staycation} alt="Staycation" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Staycation
+            </ImageTitle>
+            <ImageInfo>collage</ImageInfo>
+          </ImageOverlay>
+        </ImageDiv>
+        <ImageDiv style={{ position: "relative" }}>
+          <img src={ThreeGraces} alt="Three graces" />
+          <ImageOverlay>
+            <ImageTitle style={{ marginTop: "25%" }}>
+              Three Graces
+            </ImageTitle>
+            <ImageInfo>collage</ImageInfo>
           </ImageOverlay>
         </ImageDiv>
       </DesignGallery>
